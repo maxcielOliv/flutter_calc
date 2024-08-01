@@ -12,7 +12,6 @@ class CalcController extends ChangeNotifier {
 
     if (click is CommonButtonclick) {
       display += click.value;
-      notifyListeners();
     } else if (click is ClearButtonclick) {
       display = '0';
     } else if (click is ClearEntryButtonclick) {

@@ -143,7 +143,6 @@ class Button extends StatelessWidget {
         onTap: onTap == null ? null : () => onTap!(value),
         child: Container(
           padding: const EdgeInsets.all(8),
-          color: color,
           child: Center(
             child: Text(
               value,
